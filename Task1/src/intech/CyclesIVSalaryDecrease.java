@@ -1,8 +1,8 @@
 // 4. Написать программу, которая вам уменьшает зп с $10000 до $0 каждый месяц используя циклы while/ do ... while, for. (Все три реализации).
 
-package INTECH;
+package intech;
 
-public class Cycles_1_4_SalaryDecrease {
+public class CyclesIVSalaryDecrease {
 
     public static void main(String[] args) {
         System.out.println("The 1st realization:");
@@ -43,5 +43,18 @@ public class Cycles_1_4_SalaryDecrease {
         }
         System.out.print("0$");
         System.out.println(". So feel free to fly like a bird in the sky!");
+        System.out.println("");
+
+        System.out.println("The 4th realization (do...while):");
+        System.out.print("Your salary this month was ");
+        int l = 10000;
+        System.out.println(l + "$");
+        do {
+            System.out.print("Your salary this month was decreased by 1000$ and now equals ");
+            l -= 1000;
+            System.out.println(l + "$");
+        }
+        while (l > 1000);
+        System.out.println("Your salary this month was decreased by 1000$ and now equals 0$. So feel free to fly like a bird in the sky!");
     }
 }

@@ -2,9 +2,9 @@
 // Циклы
 // 1. Объявить переменные всех вам известных типов и вывести их значения на экран.
 
-package INTECH;
+package intech;
 
-public class Cycles_1_1_Variables {
+public class CyclesIVariables {
     // byte 127;        //8 bit or 1 byte
     // short 32767;     //16 bit or 2 byte
     // int 2147483647;   //32 bit or 4 byte

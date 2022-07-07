@@ -2,12 +2,9 @@
 // 2. Объявить строку с вашим полным именем и вывести на экран результат работы всех стандартных методов работы со строками.
 //https://comaqa.gitbook.io/java-automation/yazyk-java.-osnovy/stroki
 
-package INTECH;
+package intech;
 
-import java.sql.SQLOutput;
-import java.util.Locale;
-
-public class Cycles_1_2_Strings {
+public class CyclesIIStrings {
     public static void main(String[] args) {
         String str1 = new String("Safin Eduard Albertovich de costa-brava cortez");
         String str2 = "Сафин Эдуард Альбертович";

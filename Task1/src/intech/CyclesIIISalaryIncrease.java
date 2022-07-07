@@ -1,8 +1,8 @@
 // 3. Написать программу, которая увеличивает вам зарплату каждый месяц на $1000, используя циклы while/ do ... while, for. (Все три реализации)
 
-package INTECH;
+package intech;
 
-public class Cycles_1_3_SalaryIncrease {
+public class CyclesIIISalaryIncrease {
 
     public static void main(String[] args) {
         System.out.println("The cycle is stopped when the salary of 13000$ is reached.");
